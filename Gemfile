@@ -55,4 +55,6 @@ group :production do
   # Heroku setup
   gem 'pg'
   gem 'rails_12factor'
+  # use "proper" webserver
+  gem 'puma'
 end
